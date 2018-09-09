@@ -1,3 +1,4 @@
+<!DOCTYPE HTML>
 <html>
 	<head>
 		<title>hello world</title>
@@ -9,42 +10,107 @@
 	</head>
 	<body class="is-preload">
 
-		<!-- Wrapper -->
+		<!-- Wrapper-->
 			<div id="wrapper">
 
-				<!-- Main -->
-					<section id="main">
-						<header>
-							<span class="avatar"><img src="images/avatar.jpg" alt="" /></span>
-							<h1>alaina rogacki</h1>
-							<p>software developer</p>
-						</header>
+				<!-- Nav -->
+					<nav id="nav">
+						<a href="#" class="icon fa-home"><span>Home</span></a>
+						<a href="#work" class="icon fa-folder"><span>Work</span></a>
+						<a href="#contact" class="icon fa-envelope"><span>Contact</span></a>
+						<a href="https://github.com/aarogacki" class="icon fa-github" target="_blank"><span>Github</span></a>
+					</nav>
 
-						<footer>
-							<ul class="icons">
-								<li><a href="https://www.github.com/aarogacki" target="_blank" class="fa-github">Github</a></li>
-								<li><a href="https://www.instagram.com/alainarogacki" target="_blank" class="fa-instagram">Instagram</a></li>
-								<li><a href="https://www.twitter.com/alainarogacki" target="_blank" class="fa-twitter">Twitter</a></li>
-							</ul>
-						</footer>
-					</section>
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Me -->
+							<article id="home" class="panel intro">
+								<header>
+									<h1>Alaina Rogacki</h1>
+									<p>Software Developer</p>
+								</header>
+								<a href="#work" class="jumplink pic">
+									<span class="arrow icon fa-chevron-right"><span>See my work</span></span>
+									<img src="images/me.jpg" alt="" />
+								</a>
+							</article>
+
+						<!-- Work -->
+							<article id="work" class="panel">
+								<header>
+									<h2>Work</h2>
+								</header>
+								<p>
+									I am primary a PHP developer, but I also develop iOS apps in my spare time. I am particularily interested in 
+									ARKit and single page apps. Here are a few of my favorite projects that I've worked on.
+								</p>
+								<section>
+									<div class="row">
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="https://github.com/hal-platform/hal" class="image fit" target="_blank">
+												<img src="images/pic01.jpg" alt="Hal">
+											</a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+												<a href="https://www.alainarogacki.com/rgbColorGame/" class="image fit" target="_blank">
+													<img src="images/pic02.png" alt="RBG Color Game">
+												</a>
+											</div>
+											<div class="col-4 col-6-medium col-12-small">
+												<a href="https://www.alainarogacki.com/ToDoListProject/" class="image fit" target="_blank">
+													<img src="images/pic03.png" alt="To Do List">
+												</a>
+											</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="https://github.com/aarogacki/Magic8" class="image fit" target="_blank">
+												<img src="images/pic04.png" alt="Magic 8 Ball iOS App">
+											</a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="https://github.com/aarogacki/GoodEatins" class="image fit" target="_blank">
+												<img src="images/pic05.png" alt="Good Eatins App">
+											</a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="https://github.com/aarogacki/Intergalctic-Fun" class="image fit" target="_blank">
+												<img src="images/pic06.jpg" alt="Intergalctic Fun">
+											</a>
+										</div>
+									</div>
+								</section>
+							</article>
+
+						<!-- Contact -->
+							<article id="contact" class="panel">
+								<header>
+									<h2>Contact Me</h2>
+								</header>
+								<nav id="contact-icons">
+										<a href="mailto:alainarogacki@gmail.com" class="icon fa-envelope" target="_blank"><span>Email</span></a>
+										<a href="https://twitter.com/alainarogacki" class="icon fa-twitter" target="_blank"><span>Twitter</span></a>
+										<a href="https://Instagram.com/alainarogacki" class="icon fa-instagram" target="_blank"><span>Instagram</span></a>
+										<a href="https://www.linkedin.com/in/alainarogacki/" class="icon fa-linkedin" target="_blank"><span>LinkedIn</span></a>
+										<a href="https://github.com/aarogacki" class="icon fa-github" target="_blank"><span>Github</span></a>
+									</nav>
+							</article>
+					</div>
 
 				<!-- Footer -->
-					<footer id="footer">
+					<div id="footer">
 						<ul class="copyright">
 							<li>&copy; 2018 - alaina rogacki</li>
 						</ul>
-					</footer>
+					</div>
 
 			</div>
 
 		<!-- Scripts -->
-			<script>
-				if ('addEventListener' in window) {
-					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-preload\b/, ''); });
-					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
-				}
-			</script>
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
 
 	</body>
 </html>
