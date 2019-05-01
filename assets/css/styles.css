@@ -1,0 +1,236 @@
+/* main */
+
+/* body {
+    font-family: 'Helvetica';
+    color: #B5B5B5;
+    background-image: url(../assets/sprinkles.jpeg);
+    margin: 0 auto;
+    height: 100%;
+} */
+
+body {
+    font-family: Franklin Gothic Book, Source Sans Pro, Helvetica Neue, sans-serif;
+    margin: 0 auto;
+    background-image: url(../assets/sprinkles.jpeg);
+    line-height: 1.8em;
+    padding: 12px;
+    box-sizing: border-box;
+    color: #949393;
+}
+
+body,
+html {
+    height: 100%;
+    font-size: 1.2em;
+}
+
+.wrapper {
+    box-sizing: border-box;
+    background: #fff;
+    box-shadow: 0 0 5px #2ED4F0;
+    height: 75%;
+    width: 75%;
+    overflow: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* TO DO - update with the different colors */
+.aqua-link {
+    color: #B5B5B5;
+    text-decoration: none;
+    border-bottom: 1px solid #00DDC2;
+}
+
+.aqua-link:hover {
+    border-bottom: 1px solid #00DDC2;
+    color: #696969;
+}
+
+.blue-link {
+    color: #B5B5B5;
+    text-decoration: none;
+    border-bottom: 1px solid #2ED4F0;
+}
+
+.blue-link:hover {
+    border-bottom: 1px solid #2ED4F0;
+    color: #696969;
+}
+
+.orange-link {
+    color: #B5B5B5;
+    text-decoration: none;
+    border-bottom: 1px solid #FF9E80;
+}
+
+.orange-link:hover {
+    border-bottom: 1px solid #FF9E80;
+    color: #696969;
+}
+.pink-link {
+    color: #B5B5B5;
+    text-decoration: none;
+    border-bottom: 1px solid #FFDBE4;
+}
+
+.pink-link:hover {
+    border-bottom: 1px solid #FFDBE4;
+    color: #696969;
+}
+.purple-link {
+    color: #B5B5B5;
+    text-decoration: none;
+    border-bottom: 1px solid #CB97E3;
+}
+
+.purple-link:hover {
+    border-bottom: 1px solid #CB97E3;
+    color: #696969;
+}
+
+.yellow-green-link {
+    color: #B5B5B5;
+    text-decoration: none;
+    border-bottom: 1px solid #C9DD00;
+}
+
+.yellow-green-link:hover {
+    border-bottom: 1px solid #C9DD00;
+    color: #696969;
+}
+
+.aqua {
+    color: #00DDC2;
+}
+
+.blue {
+    color: #2ED4F0;
+}
+
+.gray {
+    color: #B5B5B5;
+}
+
+.orange {
+    color: #FF9E80;
+}
+
+.pink {
+    color: #FFDBE4;
+}
+
+.purple {
+    color: #CB97E3;
+}
+
+.yellow-green {
+    color: #C9DD00;
+}
+
+
+
+
+
+
+
+p {
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.name {
+    font-family: Playfair Display;
+    font-size: 50px;
+    font-weight: 900;
+    padding-bottom: 20px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 900px;
+    height: 400px;
+    padding: 80px 12px;
+    overflow: auto;
+}
+
+.meta {
+    text-transform: uppercase;
+    font-family: Courier New, Quicksand, "Helvetica Neue", "Arial", sans-serif;
+    font-size: 11px;
+    letter-spacing: .15em;
+}
+
+/* .meta a:hover {
+    border-bottom: 1px solid #CCFF26;
+    color: #333;
+} */
+
+.inline-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.inline-list li {
+    display: inline-block;
+}
+
+footer .inline-list li {
+    padding-right: 40px;
+}
+
+footer {
+    margin: 0 auto;
+    position: absolute;
+    bottom: 0px;
+    padding: 40px 0;
+    width: 100%;
+}
+
+/* colors for reference */
+
+/* .aqua {
+    color: #00DDC2;
+}
+
+.blue {
+    color: #2ED4F0;
+}
+
+.gray {
+    color: #B5B5B5;
+}
+
+.orange {
+    color: #FF9E80;
+}
+
+.pink {
+    color: #FFDBE4;
+}
+
+.purple {
+    color: #CB97E3;
+}
+
+.yellow-green {
+    color: #C9DD00;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
